@@ -2,20 +2,41 @@ import React from 'react'
 
 
 export interface CardProps {
-    
+    src: string;
+    title: string;
+    info: string;
+    demo: string;
+    git: string;
 }
  
-const Card: React.SFC<CardProps> = () => {
+const Card: React.SFC<CardProps> = (props) => {
+    const {src, title, info} = props
     return ( 
-
         <div className="card">
-        <img className="card-img-top" src="..." alt="Card  cap"/>
-        <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <img className="card-img-top img-fluid" src={src} alt="Card  cap"/>
+            <div className="card-body">
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{info}</p>
+            </div>
+            <div className="container d-flex">
+                <div className="row">
+                    <div className="col card-link__1 ">
+                        <a href="https://twitter.com/CurlyGalactic"  
+                            rel="noreferrer" target="_blank">
+                            <i className="bx bxl-github">
+                            </i>  
+                        </a>
+                      
+                    </div>
+                    <div className="col">
+                        <a href="https://twitter.com/CurlyGalactic"  
+                            rel="noreferrer" target="_blank">
+                            <i className='bx bx-camera-movie'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
      );
 }
  

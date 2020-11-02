@@ -5,9 +5,13 @@ export interface ProjectsProps {
 }
  
 const Projects: React.FunctionComponent<ProjectsProps> = () => {
-    return (  
-
-        <CardDeck/>
+    return ( 
+        <div className="container Portfolio">
+            <h2 className="about-title">
+                PORTFOLIO
+            </h2>
+            <CardDeck/>
+        </div>
     );
 }
  

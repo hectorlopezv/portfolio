@@ -192,20 +192,70 @@ header{
   }
 }
 
-
-
-
-
 .card {
   transition: all;
+  text-decoration: none;
+  padding: 1.5rem 1rem;
 }
+
+.card img {
+  height: 170x;
+}
+
 .card:hover{
   transform: translateY(-10px);
   box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.66);
 }
 
+.card  a {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #45505b;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
 
+@media (max-width: 992px){
+  .card-link__1{
+    margin-bottom: 10px;
+  }
+}
 
+@media (max-width: 768px)  {
+  .card-deck{
+    flex-flow: column wrap !important;
+    margin: 0 -25px!important;
+  }
+  .card-deck .card{
+    margin-bottom: 10px!important;
+  }
+}
+
+.card-deck__2{
+  margin-top: 3.5rem;
+}
+.card-deck__1{
+
+}
+
+.card a span{
+  font-size: 15px;
+}
+.card a:hover {
+  color: #0563bb;
+  text-decoration: none;
+}
+
+.card-title{
+  font-size: 1.8rem;
+}
+.card-text{
+  font-size: 1.4rem;
+  font-style: italic;
+}
 
 .about-title {
   font-size: 32px;
@@ -218,6 +268,7 @@ header{
   text-align: center;
   position: relative;
 }
+
 .about-title::before {
   content: '';
   position: absolute;
@@ -239,13 +290,18 @@ header{
   bottom: 0;
   left: calc(50% - 20px);
 }
+
+.about {
+  margin-top: 40px;
+  padding-top: 1.3rem;
+}
+
 .title-about{
   text-align: center;
   font-size: 2rem;
-  margin-top: 1.2rem;
+  margin-top: 1.3rem;
+  
 }
-
-
 
 .about .content h3 {
   font-weight: 700;
@@ -265,11 +321,12 @@ header{
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
- 
 }
+
 .icofont-rounded-right:before{
    color: #0563bb;
 }
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -326,6 +383,11 @@ header{
 }
 
 .skills{
-  margin-top: 30px;
+  margin-top: 40px;
+}
 
+.Portfolio{
+  margin-top: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
