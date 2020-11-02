@@ -1,24 +1,64 @@
 import React from 'react'
 
-import Im12 from '../assets/pictures/Im12.png';
+import Cara from '../assets/pictures/Cara.png';
 export interface AboutProps {
     
 }
  
 const About: React.FunctionComponent<AboutProps> = () => {
     return ( 
-        <div className="container">
-            <div className="row">
+        <div className="container about">
+            <div className="row title-about">
                 <div className="col">
-
-                    <h2 className="h2_home">Hello Im A Junior Software Engineer Aiming To Become A 
-                            Full Stack Developer In The Near Future, With A Strong Liking 
-                            To System Design And Databases And Affinity With Front End Development</h2> 
-                </div>
-                <div className="col">
-                    <img src={Im12} className="img-fluid" alt="Responsive "/>
+                    <h2 className="about-title">
+                        About
+                    </h2>
+                    <p className="p_about_1">
+                    Just A Dude Born In Colombia That Loves Web Development, System Design And
+                     All The Stuff Related With It.
+                    </p>
                 </div>
             </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <img src={Cara} className="img-fluid rounded border" alt="Responsive "/>
+                </div>
+
+                <div className="col-lg-8 pt-4 pt-lg-0 content">
+                    <h3>Electronic Engineer &amp; Web Developer</h3>
+                    <p className="font-italic">
+                        Currently finishing the frontend roadmap 
+                        that includes React/typescript/Css and the MERN stack.
+                    </p>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <ul>
+                                <li><i className="icofont-rounded-right"><strong>Birthday: </strong>22 December 1995</i></li>
+                                <li><i className="icofont-rounded-right"><strong>Website: </strong>www.demo.com</i></li>
+                                <li><i className="icofont-rounded-right"><strong>Phone: </strong>+57 3205552871</i></li>
+                                <li><i className="icofont-rounded-right"><strong>City: </strong>Barranquilla</i></li>
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <ul>
+                                <li><i className="icofont-rounded-right"><strong>Age: </strong>24</i></li>
+                                <li><i className="icofont-rounded-right"><strong>Degree: </strong>Bachelor</i></li>
+                                <li><i className="icofont-rounded-right"><strong>Email: </strong>hectorvmlopez@gmail.com</i></li>
+                                <li><i className="icofont-rounded-right"><strong>Looking Position: </strong>Junior Software engineer</i></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <p className="p_about_2">Hello Im A Junior Software Engineer Aiming To Become A 
+                            Full Stack Developer In The Near Future, With A Strong Liking 
+                            To System Design And Databases And Affinity With Front End Development.
+                    </p> 
+                </div>
+            
+            </div>
+
         </div>
     
      );

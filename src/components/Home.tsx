@@ -1,25 +1,21 @@
 import * as React from 'react';
-
+import Links from './Links';
 export interface HomeProps {
     
 }
  
 const Home: React.FunctionComponent<HomeProps> = () => {
     return (  
-        <header className="header_home">
-            <div className="container">
+            <div id="hero" className="d-flex flex-column justify-content-center align-items-center">
                 <div className="row align-items-center">
                     <div className="col-md-auto h1_home">
-                        <h1 className="h1_home">Junior Software Developer</h1>
-                        <h2>Hello Folks, Welcome to the Oficial Website Of 
+                        <h1>Hector Vinicio Lopez Molinares</h1>
+                        <h2>Hello Folks, Welcome To The Oficial Website Of 
                             Hector Lopez</h2> 
-                        <button type="button" className="btn btn-success">Success</button>   
+                        <Links/>
                     </div>
                 </div>
             </div>
-        </header>
-
-
     );
 }
  

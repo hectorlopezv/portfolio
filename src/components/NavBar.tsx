@@ -6,12 +6,25 @@ export interface NavBarProps {
  
 const NavBar: React.FunctionComponent<NavBarProps> = () => {
     return ( 
-        <nav className="navbar  navbar-expand-l d-flex">
-            <a className="name-bar" href="#Home">Hector Lopez</a>  
-            <a href="#About">About </a>  
-            <a href="#Demos">Demos</a>  
-            <a href="#Contact">Contact</a>  
-        </nav>
+            <header className="d-flex flex-column justify-content-center">
+                <nav className="nav-menu">
+                    <ul>
+                        <li className="active">
+                            <a href="#home" ><i className="bx bx-home"></i><span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href="#about" ><i className="bx bx-user"></i><span>About</span></a>
+                        </li>
+                        <li>
+                            <a href="#projects" ><i className="bx bx-file-blank"></i><span>Projects</span></a>
+                        </li>
+                        <li>
+                            <a href="#contact" ><i className="bx bx-envelope"></i><span>Contact</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
     );
 }
  
