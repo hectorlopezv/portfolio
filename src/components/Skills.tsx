@@ -33,7 +33,7 @@ const Skills: React.FunctionComponent<SkillsProps> = () => {
                 <div className="col-lg-6">
                     <Skill
                             name="DOCKER"
-                            percent="60"
+                            percent="50"
                         />
                     <Skill
                         name="PYTHON"
