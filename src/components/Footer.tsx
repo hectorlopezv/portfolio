@@ -13,7 +13,7 @@ const Footer: React.FunctionComponent<FooterProps> = () => {
         });
       }, []);
     return ( 
-        <footer id="footer" data-aos="fade-up">
+        <footer id="footer" data-aos="fade-right">
             <div className="container">
                 <h3>
                     Hector Vinicio Lopez Molinares
