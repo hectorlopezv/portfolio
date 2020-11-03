@@ -1,20 +1,20 @@
-import * as React from 'react';
-import Links from './Links';
-import Typing from './Typing';
+import React from 'react'
 import Link from './Link';
-export interface HomeProps {
+import Links from './Links';
+export interface FooterProps {
     
 }
  
-const Home: React.FunctionComponent<HomeProps> = () => {
-    return (  
-            <div id="hero" className="d-flex flex-column justify-content-center align-items-center">
-                <div className="row align-items-center">
-                    <div className="col-md-auto h1_home">
-                        <h1>Hector Vinicio Lopez Molinares</h1>
-                        <Typing/>
-                        <Links  
-                            css_class={"d-flex social-links"}
+const Footer: React.FunctionComponent<FooterProps> = () => {
+    return ( 
+        <footer id="footer">
+            <div className="container">
+                <h3>
+                    Hector Vinicio Lopez Molinares
+                </h3>
+                <p>Software Developer From Colombia with 1 year of experience</p>
+                <Links
+                            css_class={"d-flex social-links justify-content-center"}
                             links={[
                             <Link
                                 key={1}
@@ -32,12 +32,18 @@ const Home: React.FunctionComponent<HomeProps> = () => {
                                 name_icon={"github"}
                             />
                             ]
-                                }
+                                }      
                         />
-                    </div>
+
+                <div className="copyright">
+                    &copy; Copyright <strong><span>Hector Vinicio Lopez Molinares</span></strong>. All Rights Reserved
                 </div>
+
             </div>
-    );
+
+
+        </footer>
+     );
 }
  
-export default Home;
+export default Footer;

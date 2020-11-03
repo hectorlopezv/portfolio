@@ -49,26 +49,7 @@ const CardDeck: React.FunctionComponent<CardDeckProps> = () => {
                 />
 
             </div>
-            <div className="card-deck card-deck__2">
-                <Card
-                    src={Im1}
-                    title={"Nexter Inc."}
-                    info={"Realtors Website Using Grid Layout Only."}
-                    git={"xd"}
-                    demo={"xd"}
-                />
-                <Card
-                    src={Im1}
-                    title={"Nexter Inc."}
-                    info={"Realtors Website Using Grid Layout Only."}
-                />
-                <Card
-                    src={Im1}
-                    title={"Nexter Inc."}
-                    info={"Realtors Website Using Grid Layout Only."}
-                />
 
-            </div>
 
         </div>
 

@@ -18,11 +18,11 @@ const Skills: React.FunctionComponent<SkillsProps> = () => {
                     />
                     <Skill
                         name="SQL &amp; MongoDb"
-                        percent="60"
+                        percent="50"
                     />
                     <Skill
                         name="JAVASCRIPT"
-                        percent="85"
+                        percent="76"
                     />
                     <Skill
                         name="REACT"
@@ -45,9 +45,10 @@ const Skills: React.FunctionComponent<SkillsProps> = () => {
                     />
                     <Skill
                         name="NODEJS"
-                        percent="70"
+                        percent="55"
                     />
                 </div>
+                
             </div>
         </div>
      

@@ -28,8 +28,6 @@ const About: React.FunctionComponent<AboutProps> = () => {
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
                     <h3>Electronic Engineer &amp; Web Developer</h3>
                     <p className="font-italic">
-                        Currently finishing the frontend roadmap 
-                        that includes React/typescript/Css and the MERN stack.
                     </p>
                     <div className="row">
                         <div className="col-lg-6">
@@ -51,9 +49,10 @@ const About: React.FunctionComponent<AboutProps> = () => {
                         </div>
 
                     </div>
-                    <p className="p_about_2">Hello Im A Junior Software Engineer Aiming To Become A 
-                            Full Stack Developer In The Near Future, With A Strong Liking 
-                            To System Design And Databases And Affinity With Front End Development.
+                    <p className="p_about_2">Full-Stack Software Developer with 1 year of experience in software Development, 
+                            that follows the following set of rules 2/4 Learning , 1/4 Sleeping, 1/4 Coding in addition to be a fast-learner and planning to 
+                            teach kids about the amazing world of programming and why the should take this path in the future .
+
                     </p> 
                 </div>
             
