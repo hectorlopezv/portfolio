@@ -153,6 +153,7 @@ header{
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 #hero p span {
@@ -476,9 +477,32 @@ header{
 .Email, .Call, .location{
   justify-content: center;
   align-items: center;
-
 }
+
 .Call{
  padding-right: 5rem;
-
 }
+
+.Email{
+  padding-left: 5rem;
+}
+
+.Resume {
+  padding: 1.5rem 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.Resume a,.Resume a:hover {
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.Resume a span {
+  color: #45505b;
+  letter-spacing: 1px;
+}
+

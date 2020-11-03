@@ -1,13 +1,14 @@
 import React from 'react'
 
 import Foto from '../assets/pictures/Foto.png';
+import Typing_2 from './Typing_2';
 export interface ContactProps {
     
 }
  
 const Contact: React.FunctionComponent<ContactProps> = () => {
     return ( 
-        <div className="container">
+        <div className="container mt-x">
             <h2 className="about-title">
                 Contact
             </h2>
@@ -27,7 +28,7 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
                                 <i className="icofont-email"></i>
                                 <div className="info-text">   
                                     <h4 className="d-block">Email:</h4>
-                                    <p>hectorvmlopez@gmail</p>
+                                    <p>hectorvmlopez@gmail.com</p>
                                 </div>
                         </div>
 
@@ -48,6 +49,11 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
 
                 <div className="col-lg-4">
                     <img src={Foto} className="img-fluid border rounded-circle mx-auto d-block" alt="Responsive "/>
+                    <div className="Resume">
+                        <Typing_2/>
+                        
+                    </div>
+                    
                 </div>
             </div>
             <div className="row">
