@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Skill from './Skill';
+import AOS from 'aos';
 export interface SkillsProps {
     
 }
  
 const Skills: React.FunctionComponent<SkillsProps> = () => {
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
     return ( 
-        <div className="container skills">
+        <div className="container skills" data-aos="fade-right">
             <h2 className="about-title">
                         Skills
             </h2>

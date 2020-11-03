@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Link from './Link';
 import Links from './Links';
+import AOS from 'aos';
 export interface FooterProps {
     
 }
  
 const Footer: React.FunctionComponent<FooterProps> = () => {
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
     return ( 
-        <footer id="footer">
+        <footer id="footer" data-aos="fade-up">
             <div className="container">
                 <h3>
                     Hector Vinicio Lopez Molinares

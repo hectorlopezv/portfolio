@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import Cara from '../assets/pictures/Cara.png';
+import AOS from 'aos';
 export interface AboutProps {
     
 }
  
 const About: React.FunctionComponent<AboutProps> = () => {
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
     return ( 
-        <div id="about" className="container about">
+        <div id="about" className="container about" data-aos="fade-right">
             <div className="row title-about">
                 <div className="col">
                     <h2 className="about-title">

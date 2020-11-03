@@ -1,14 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import Foto from '../assets/pictures/Foto.png';
-import Typing_2 from './Typing_2';
+import Typing2 from './Typing2';
+import AOS from 'aos';
 export interface ContactProps {
     
 }
  
 const Contact: React.FunctionComponent<ContactProps> = () => {
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
     return ( 
-        <div className="container mt-x contact">
+        <div className="container mt-x contact" data-aos="fade-right">
             <h2 className="about-title">
                 Contact
             </h2>
@@ -50,7 +56,7 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
                 <div className="col-lg-4">
                     <img src={Foto} className="img-fluid border rounded-circle mx-auto d-block" alt="Responsive "/>
                     <div className="Resume">
-                        <Typing_2/>
+                        <Typing2/>
                         
                     </div>
                     
