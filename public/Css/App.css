@@ -437,3 +437,48 @@ header{
 #footer .copyright {
   margin-top: 30px;
 }
+
+.info{
+  flex-flow: column wrap;
+}
+.info h4 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #45505b;
+}
+.info i {
+  color: #0563bb;
+  background: #eef7ff;
+  height: 65px;
+  width:70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border-radius: 50%;
+}
+.info-text{
+  margin-left: 25px;
+}
+.info p{
+  font-size: 1.9rem;
+  color: #728394;
+}
+
+.mt-x{
+  margin-top: 5rem;
+
+}
+.mb-x{
+  margin-bottom: 20px;
+}
+
+.Email, .Call, .location{
+  justify-content: center;
+  align-items: center;
+
+}
+.Call{
+ padding-right: 5rem;
+
+}
