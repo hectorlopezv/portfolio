@@ -44,7 +44,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
                                 <li><i className="icofont-rounded-right"><strong>Age: </strong>24</i></li>
                                 <li><i className="icofont-rounded-right"><strong>Degree: </strong>Bachelor</i></li>
                                 <li><i className="icofont-rounded-right"><strong>Email: </strong>hectorvmlopez@gmail.com</i></li>
-                                <li><i className="icofont-rounded-right"><strong>Desired Position: </strong>Junior Software engineer</i></li>
+                                <li><i className="icofont-rounded-right"><strong>Position: </strong>Software Developer</i></li>
                             </ul>
                         </div>
 
