@@ -10,6 +10,8 @@ html
 {
     font-size : 62.5%;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+    zoom: 1;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -28,6 +30,9 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+header {
+  opacity: 0.8;
 }
 
 
@@ -68,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #45505b;
 }
 
-@media (min-width: 992px) {
+
   .nav-menu a {
     width: 56px;
   }
@@ -76,7 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
     color: #fff;
   }
-}
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
@@ -472,6 +476,9 @@ header{
 }
 .mb-x{
   margin-bottom: 20px;
+}
+.mr-x{
+
 }
 
 .Email, .Call, .location{

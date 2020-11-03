@@ -14,7 +14,7 @@ const Home: React.FunctionComponent<HomeProps> = () => {
                         <h1>Hector Vinicio Lopez Molinares</h1>
                         <Typing/>
                         <Links  
-                            css_class={"d-flex social-links"}
+                            css_class={"d-flex social-links justify-content-center"}
                             links={[
                             <Link
                                 key={1}

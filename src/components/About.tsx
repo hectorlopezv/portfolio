@@ -7,7 +7,7 @@ export interface AboutProps {
  
 const About: React.FunctionComponent<AboutProps> = () => {
     return ( 
-        <div className="container about">
+        <div id="about" className="container about">
             <div className="row title-about">
                 <div className="col">
                     <h2 className="about-title">
@@ -50,8 +50,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
 
                     </div>
                     <p className="p_about_2">Full-Stack Software Developer with 1 year of experience in software Development, 
-                            that follows the following set of rules 2/4 Learning , 1/4 Sleeping, 1/4 Coding in addition to be a fast-learner and planning to 
-                            teach kids about the amazing world of programming and why the should take this path in the future .
+                            that follows the following set of rules 2/4 Learning , 1/4 Sleeping, 1/4 Coding in addition to be a fast-learner, that 
 
                     </p> 
                 </div>

@@ -8,7 +8,7 @@ export interface ContactProps {
  
 const Contact: React.FunctionComponent<ContactProps> = () => {
     return ( 
-        <div className="container mt-x">
+        <div className="container mt-x contact">
             <h2 className="about-title">
                 Contact
             </h2>
@@ -24,7 +24,7 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
                                 </div>
                         </div>
 
-                        <div className="Email d-flex mt-x">
+                        <div className="Email d-flex mt-x mr-x">
                                 <i className="icofont-email"></i>
                                 <div className="info-text">   
                                     <h4 className="d-block">Email:</h4>

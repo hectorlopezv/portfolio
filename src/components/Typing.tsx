@@ -24,7 +24,7 @@ class Typing extends React.Component {
   render() {
     return (
 
-        <p> I'm&nbsp;
+        <p className="d-block "> I'm&nbsp;
           <span className="typed"
             style={{ whiteSpace: "pre" }}
             ref={(el) => {

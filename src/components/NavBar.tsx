@@ -10,13 +10,13 @@ const NavBar: React.FunctionComponent<NavBarProps> = () => {
                 <nav className="nav-menu">
                     <ul>
                         <li className="active">
-                            <a href="#home" ><i className="bx bx-home"></i><span>Home</span></a>
+                            <a href="#hero" ><i className="bx bx-home"></i><span>Home</span></a>
                         </li>
                         <li>
                             <a href="#about" ><i className="bx bx-user"></i><span>About</span></a>
                         </li>
                         <li>
-                            <a href="#projects" ><i className="bx bx-file-blank"></i><span>Projects</span></a>
+                            <a href="#portfolio" ><i className="bx bx-file-blank"></i><span>Projects</span></a>
                         </li>
                         <li>
                             <a href="#contact" ><i className="bx bx-envelope"></i><span>Contact</span></a>
