@@ -10,7 +10,7 @@ export interface CardProps {
 }
  
 const Card: React.SFC<CardProps> = (props) => {
-    const {src, title, info} = props
+    const {src, title, info, demo, git} = props
     return ( 
         <div className="card">
             <img className="card-img-top img-fluid" src={src} alt="Card  cap"/>
@@ -21,7 +21,7 @@ const Card: React.SFC<CardProps> = (props) => {
             <div className="container d-flex">
                 <div className="row">
                     <div className="col card-link__1 ">
-                        <a href="https://twitter.com/CurlyGalactic"  
+                        <a href={git}  
                             rel="noreferrer" target="_blank">
                             <i className="bx bxl-github">
                             </i>  
@@ -29,7 +29,7 @@ const Card: React.SFC<CardProps> = (props) => {
                       
                     </div>
                     <div className="col">
-                        <a href="https://twitter.com/CurlyGalactic"  
+                        <a href={demo}  
                             rel="noreferrer" target="_blank">
                             <i className='bx bx-camera-movie'></i>
                         </a>

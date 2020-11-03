@@ -26,7 +26,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
                 </div>
 
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
-                    <h3>Electronic Engineer &amp; Web Developer</h3>
+                    <h3>Electronic Engineer &amp; Software Developer</h3>
                     <p className="font-italic">
                     </p>
                     <div className="row">

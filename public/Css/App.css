@@ -194,7 +194,7 @@ header{
 }
 
 .card {
-  transition: all;
+  transition: all .5s ease;
   text-decoration: none;
   padding: 1.5rem 1rem;
 }
@@ -204,8 +204,8 @@ header{
 }
 
 .card:hover{
-  transform: translateY(-10px);
-  box-shadow: 5px 5px 17px 5px rgba(0,0,0,0.66);
+  transform: translateY(-5px);
+  box-shadow: 1px 5px 7px 5px rgba(69, 80, 91, 0.66);
 }
 
 .card  a {
