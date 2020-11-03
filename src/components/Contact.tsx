@@ -1,5 +1,6 @@
 import React from 'react'
-import Cara from '../assets/pictures/Cara.png';
+
+import Foto from '../assets/pictures/Foto.png';
 export interface ContactProps {
     
 }
@@ -11,10 +12,14 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
                 About
             </h2>
             <div className="row">
-                <div className="col-lg-4">
-                    <img src={Cara} className="img-fluid rounded border" alt="Responsive "/>
-                </div>
                 <div className="col-lg-8 mt-5 mt-lg-0">
+                </div>
+                <div className="col-lg-4">
+                    <img src={Foto} className="img-fluid rounded border rounded-circle" alt="Responsive "/>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
 
                 </div>
             </div>
