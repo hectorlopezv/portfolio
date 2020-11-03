@@ -50,7 +50,9 @@ const About: React.FunctionComponent<AboutProps> = () => {
 
                     </div>
                     <p className="p_about_2">Full-Stack Software Developer with 1 year of experience in software Development, 
-                            that follows the following set of rules 2/4 Learning , 1/4 Sleeping, 1/4 Coding in addition to be a fast-learner, that 
+                            that follows the following set of rules 2/4 Learning , 1/4 Sleeping, 1/4 Coding in addition to be a fast-learner, considered to be an Adaptable, 
+                            innovative, conservative and ambitious Person, choosen Software Development as main path due to fact that this kind of job offers
+                            flexibility and freedom and last but not least the fame and respect it brings to the table. 
 
                     </p> 
                 </div>
